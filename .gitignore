@@ -1,1 +1,33 @@
+# --- 1. Jupyter Notebook & Colab Checkpoints ---
+.ipynb_checkpoints/
+**/.*_checkpoints/
 
+# --- 2. Python Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- 3. Dữ liệu dự án (Dataset & Submission) ---
+# Tránh đẩy file dữ liệu gốc (train.csv, test.csv) và file nộp kết quả lên GitHub
+*.csv
+/*.zip
+data/
+dataset/
+
+# --- 4. Mô hình và kết quả huấn luyện (Model checkpoints) ---
+*.pkl
+*.h5
+*.joblib
+*.model
+weights/
+output/
+
+# --- 5. Môi trường phát triển & Hệ điều hành ---
+.env
+.venv/
+venv/
+ENV/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
